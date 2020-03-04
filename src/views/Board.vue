@@ -88,6 +88,7 @@ export default {
 
 <style lang="less">
 .board-select {
+  display: inline-block;
   margin: 0;
   padding: 0;
   &:hover {
@@ -96,11 +97,7 @@ export default {
 }
 
 .board-name {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
   border-bottom: 1px black solid;
-  margin: 0 auto;
 }
 
 .task-section {
