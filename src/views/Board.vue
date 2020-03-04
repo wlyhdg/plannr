@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="board-name">Code ▿</p>
+    <p class="board-select"><span class="board-name">Code</span> ▿</p>
     <div class="columns flex">
       <div
         class="task-section rounded"
@@ -86,7 +86,15 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less">
+.board-select {
+  margin: 0;
+  padding: 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .board-name {
   display: inline-block;
   padding: 0;
