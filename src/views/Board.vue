@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Good morning Wael. Here's what you have planned.</h1>
+    <p class="board-name">Code ▿</p>
     <div class="columns flex">
       <div
         class="task-section rounded"
@@ -87,6 +87,14 @@ export default {
 </script>
 
 <style>
+.board-name {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px black solid;
+  margin: 0 auto;
+}
+
 .task-section {
   width: 100%;
   background-color: lightgray;

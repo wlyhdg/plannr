@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
+    <div id="nav">
+      <h1 class="greeting">Good morning Wael. Here's what you have planned.</h1>
+    </div>
     <router-view />
   </div>
 </template>
@@ -61,6 +63,10 @@ body {
 
 .heading {
   text-transform: capitalize;
+}
+
+.greeting {
+  margin: 0;
 }
 
 input {
